@@ -1,10 +1,26 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+// import { RouterLink, RouterView } from 'vue-router'
+// import HelloWorld from './components/HelloWorld.vue'
+
+import Button from "primevue/button";
+
+import InputText from "primevue/inputtext";
+
+import { ref } from "vue";
+
+const value = ref(null);
 </script>
 
 <template>
-  <header>
+  <span>Hello Primevue</span>
+
+  <div class="card flex justify-center">
+    <InputText type="text" v-model="value" />
+    <Button label="Submit" />
+  </div>
+  {{ value }}
+
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -15,9 +31,9 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
+  </header> 
 
-  <RouterView />
+  <RouterView />-->
 </template>
 
 <style scoped>

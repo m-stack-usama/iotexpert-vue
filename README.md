@@ -1,6 +1,6 @@
 # iotexpert-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 in Vite , PrimeVue & TailwindCss.
 
 ## Recommended IDE Setup
 
@@ -9,6 +9,11 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Additional help
+
+See [View Primevue with Vite](https://primevue.org/vite/).
+See [View Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite#vue).
 
 ## Project Setup
 
